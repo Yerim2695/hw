@@ -33,8 +33,7 @@ Function의 다른 표현이다.
 * * *
 # 4. Array Methods (map, reduce, filter, slice, splice)
 #### 내장 Method로 기능을 사용하자
-##### 1) Map
-
-
+** 참고 : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array **
+##### 1) Map - array의 각 요소에 반복적인 
 
 
