@@ -20,11 +20,11 @@ Promises를 잘 사용하면 작업의 스케줄을 지정해놓을 수 있다.<
 
 # 3. Arrow Functions
 #### 함수의 표현을 간단히 하자
-Function의 다른 표현이다. <br>
+'Function의 다른 표현이다. <br>
 + Function 키워드 대신 =>를 사용한다.<br>
 + 인자 값이 하나인 경우는 ()를 생략할 수 있다.<br>
 + 코드도 하나인 경우는 return도 생략할 수 있다.<br>
-+ this를 사용할 경우는 {} 안에서만 사용할 수 있다.<br>
++ this를 사용할 경우는 {} 안에서만 사용할 수 있다.<br>'
 
 # 4. Array Methods (map, reduce, filter, slice, splice)
 #### 내장 Method로 기능을 사용하자
