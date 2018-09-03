@@ -102,5 +102,10 @@ number=[2,3,5]
 <br>
 
 # 6. Spread Operator (Array/Object Spread)
-
-
+#### 배열 안에 배열을 새로 나열하고 싶다
+for 문을 사용하여 slice나 splice를 이용하여 중간에 끼워넣어도 되지만, 객체 확산 연산자를 이용하여 한 번에 해결할 수 있다.
+...를 삽입하여 삽입할 수 있다.
+~~~~objective-js
+const a=[1,2,3,4]
+const b=[5,6, ...a]
+~~~~
