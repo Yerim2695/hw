@@ -2,7 +2,7 @@
 #### 코드의 실행 순서를 조정해 보자
 예를 들어
 > componentDidMount() { <br>
->   console.log(fetch('https://yts.ag/api/v2/list_movies.json?sort_by=rating'))<br>
+>   console.log(fetch(url))<br>
 >   console.log('hello')<br>
 > }
 
