@@ -2,8 +2,8 @@
 #### 코드의 실행 순서를 조정해 보자
 예를 들어
 > componentDidMount() {  
->   console.log(fetch(url))  
->   console.log('hello')<br>
+> \  console.log(fetch(url))  
+> \  console.log('hello')<br>
 > }
 
 코드를 실행할 때에 위에서부터 아래로 읽어내리게 되는데, 이것을 동기(Synchronous)라고 한다.<br>
