@@ -5,6 +5,7 @@
 >   console.log(fetch('https://yts.ag/api/v2/list_movies.json?sort_by=rating'))
 >   console.log('hello')
 > }
+
 코드를 실행할 때에 위에서부터 아래로 읽어내리게 되는데, 이것을 동기(Synchronous)라고 한다.
 실행이 순서대로 되므로, line1의 실행이 완료되지 않으면 line2의 실행은 불가능하다.
 이런 것의 불편함을 해결하기 위헤 Promises를 사용한다. 그렇게 되면 line1이 실행되든말든 line2를 실행할 수 있다.
